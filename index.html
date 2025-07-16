@@ -1,0 +1,110 @@
+<html>
+
+<head>
+
+  <title>HTML Form Example</title>
+
+</head>
+
+<body>
+
+
+
+  <h1>Job Application Form</h1>
+
+  <form action ="submit.html" method ="post">
+
+    <div style="display: inline-block; margin-right: 30px;">
+
+     <label for ="first name" >First Name:</label><br>
+
+     <input type ="text" id ="name" name ="First Name" placeholder="Enter First Name" required>
+
+    </div>
+
+
+
+    <div style="display: inline-block; margin-right: 30px;">
+
+    <label for ="Middle name" >Middle Name:</label><br>
+
+     <input type ="text" id ="name" name ="Middle Name" placeholder="Enter Middle Name">
+
+     </div>
+
+
+
+     <div style="display: inline-block;">
+
+    <label for ="last name" >Last Name:</label><br>
+
+     <input type ="text" id ="last name" name ="last Name" placeholder="Enter Last Name" required>
+
+     </div><br><br>
+
+
+
+     <label for="email">Email:</label><br>
+
+    <input type="email" id="email" name="useremail" placeholder="you@example.com" required><br><br>
+
+
+
+     <label>Select gender</label>
+
+     <input type ="radio" id="gender" name="gender" value="gender">
+
+     <label for="male">Male</label>
+
+     <input type ="radio" id="male" name="gender" value="male" >
+
+     <label for="female">Female</label><br><br>
+
+
+
+
+
+     <label for="address">Address:</label><br>
+
+    <textarea id="address" name="useraddress" rows="4" cols="30" placeholder="Type your address here"></textarea><br><br><br>
+
+
+
+   
+
+    <label for="education">Highest Qulafication</label>
+
+    <select id ="education" name = "education">
+
+        <option value ="btech">B.Tech</option>
+
+        <option value="intermediate">Intermediate</option>
+
+      <option value="ssc">SSC</option>
+
+    </select><br><br>
+
+
+
+    <label>Skills:</label><br>
+
+    <input type="checkbox" id="HTML" name="skills" value="HTML">
+
+    <label for="html">HTML</label><br>
+
+    <input type="checkbox" id="CSS" name="skills" value="CSS">
+
+    <label for="CSS">CSS</label><br>
+
+    <input type="checkbox" id="JAVA" name="skills" value="java">
+
+    <label for="java">JAVA</label><br><br><br>
+
+
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+
+  </body>
